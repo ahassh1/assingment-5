@@ -3,13 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <!-- google fonts cdn  -->
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
-
-    <title>other page</title>
-   
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Dev Board</title>
+    <style>
+      .pop {
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
   </head>
   <body class="pop bg-[#F4F7FF]">
     <main class="min-h-screen">
@@ -60,8 +67,10 @@
               </h1>
               <hr class="border-gray-600 border-dashed" />
               <p class="text-gray-500 text-[16px]">
-             
-                Some way to selecr in the DOM is uagecase in js, we can use this type of methods these are getElementById , getElementsByClassName , getElementsByTagName , querySelectorAll , querySelector . 
+                Some way to select an element in the DOM using
+                JavaScript, you can use methods like getElementById &
+                getElementsByClassName & getElementsByTagName & querySelector
+                and querySelectorAll .
               </p>
             </div>
             <div class="bg-white px-6 py-4 rounded-lg mt-4 flex flex-col gap-4">
@@ -71,15 +80,12 @@
               </h1>
               <hr class="border-gray-600 border-dashed" />
               <p class="text-gray-500 text-[16px]">
-
-                Difference between innerHTML , innerText and textContent is given below,
-                innerHTML is complete HTML content within an element and including tags, while
-                innertext returns only the within an element , including tags, while 
-                innertext returns only the visibility text content of an 
-                element and the last one but not the list is textContent is all the 
-                text content within an element including whitespace and line breaks  
-                regardless of styling or visibility, essentially giving you the raw
-                 text without HTML interpretation.
+                Difference between innerHTML, innerText, and textContent is
+                innerHTML retrieves the complete HTML content within an element,
+                including tags, while innerText returns only the visible text
+                content of an element , and textContent retrieves all the text
+                content within an element, including whitespace and line breaks,
+                regardless of styling or visibility
               </p>
             </div>
             <div class="bg-white px-6 py-4 rounded-lg mt-4 flex flex-col gap-4">
@@ -87,9 +93,11 @@
                 Question-3: What is event delegation in the DOM?
               </h1>
               <hr class="border-gray-600 border-dashed" />
-              <p class="text-gray-500 text-[16px]".>
-
-                In the DOM Event delegation is a technique where you attach a single event listener to a parent element, allowing it to handle events triggered on its child elements, instead of adding separate listeners to each child element
+              <p class="text-gray-500 text-[16px]">
+                Event delegation in the DOM is a JavaScript technique where you
+                attach a single event listener to a parent element, allowing it
+                to handle events triggered on its child elements, instead of
+                adding separate listeners to each child element.
               </p>
             </div>
             <div class="bg-white px-6 py-4 rounded-lg mt-4 flex flex-col gap-4">
@@ -99,10 +107,10 @@
               <hr class="border-gray-600 border-dashed" />
               <p class="text-gray-500 text-[16px]">
                 Event Bubbling is the behavior where when an event occurs on an
-                element, it not only triggers an event handler on that element
+                element and  it not only triggers an event handler on that element
                 but also propagates upwards through the DOM hierarchy,
                 triggering event handlers on its parent elements until it
-                reaches the root of the document
+                reaches the root of the documenr.
               </p>
             </div>
             <div class="bg-white px-6 py-4 rounded-lg my-4 flex flex-col gap-4">
@@ -112,7 +120,7 @@
               </h1>
               <hr class="border-gray-600 border-dashed" />
               <p class="text-gray-500 text-[16px]">
-                I can create new element in JS using document.createElement()
+                To create new element in JS using document.createElement()
                 and then add it to the DOM with appendChild() or insertBefore().
                 To remove an element, use removeChild() or
                 parentNode.removeChild() on its parent element.
@@ -122,7 +130,7 @@
         </div>
       </section>
     </main>
-    <script src="js/return.js"></script>
-    <script src="js/changeTheme.js"></script>
+    <script src="JS/backDesk.js"></script>
+    <script src="JS/themeChanger.js"></script>
   </body>
 </html>
